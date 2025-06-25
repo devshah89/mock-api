@@ -40,7 +40,7 @@ func main() {
 
 	mux.HandleFunc("/validate-device", validateDeviceHandler)
 
-	serverAddress := "localhost:9001" 
+	serverAddress := "localhost:9000" 
 
 	log.Printf("Starting mock authentication API server on http://%s", serverAddress)
 
